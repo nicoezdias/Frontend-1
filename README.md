@@ -1,2 +1,2 @@
 # Frontend-1
-## LemonPie : https://nicoezdias.github.io/Frontend-1/LemonPie
+## <a target = "_blank" href = "https://nicoezdias.github.io/Frontend-1/LemonPie/"> LemonPie </a>
