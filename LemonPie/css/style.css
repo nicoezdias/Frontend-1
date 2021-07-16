@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700;900&display=swap');
+* {
+	margin-bottom: 0%;
+}
+body {
+	font-family: 'Inter', sans-serif;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+ul {
+	list-style-type: none;
+}
+
+h1 {
+	font-weight: 900;
+	color: white;
+}
+h2 {
+	font-size: 30px;
+	font-weight: 700;
+}
+h3 {
+	font-style: italic;
+}
+.baner {
+	background: burlywood url(../img/lemon-pie\ 1.svg) no-repeat center;
+	background-size: cover;
+	height: 450px;
+}
+.baner p {
+	color: white;
+}
+footer {
+	background-color: #ccc;
+	text-align: center;
+}
+.icon-titulos {
+	margin-right: 10px;
+}

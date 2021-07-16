@@ -1,0 +1,21 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+.superior {
+	background-color: #222222;
+	color: #f3f3f3;
+}
+.middle {
+	background-color: #f0a83e;
+}
+a {
+	text-decoration: none;
+	color: #ffffff;
+}
+h1 {
+	color: black;
+}
+span {
+	color: #ffffff;
+}

@@ -41,6 +41,9 @@ span {
 dl {
 	margin-left: 50px;
 }
+dd {
+	margin-left: 80px;
+}
 footer {
 	text-align: center;
 	margin-top: 30px;
