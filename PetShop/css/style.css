@@ -1,16 +1,26 @@
 /* HEADER */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 * {
 	padding: 0px;
 	margin: 0px;
+}
+body {
+	font-family: 'Roboto', sans-serif;
 }
 .superior {
 	background-color: #222222;
 	color: #f3f3f3;
 	padding: 0px 20px;
 }
+p {
+	margin-right: 10px;
+}
 .middle {
 	background-color: #f0a83e;
 	padding: 0px 20px;
+}
+.middle i {
+	margin-right: 10px;
 }
 div.cont {
 	display: flex;
@@ -39,9 +49,7 @@ li {
 	list-style-type: none;
 	margin-right: 10px;
 }
-.separado {
-	margin-right: 10px;
-}
+
 /* HEADER */
 
 /*MAIN */
@@ -76,6 +84,14 @@ section {
 h2 {
 	font-size: 45px;
 	margin: 10px 0px;
+	color: black;
+}
+ul {
+	color: black;
+}
+.pawGrande {
+	color: #f0a83e;
+	font-size: 80px;
 }
 .estante {
 	display: flex;
@@ -91,3 +107,30 @@ h2 {
 	color: #f0a83e;
 }
 /*MAIN */
+/*FOOTER */
+
+.footerSup {
+	background-color: #3c2313;
+	color: #ffffff;
+	padding: 12px;
+	margin-top: 20px;
+}
+.footerSup i {
+	font-size: 40px;
+	margin: 10px 15px;
+}
+.footerSup p {
+	font-size: 13px;
+	color: #8a8787;
+}
+.footerSup h4 {
+	font-size: 25px;
+}
+.footerInf {
+	background-color: black;
+	color: #ffffff;
+	padding: 5px;
+	font-size: 12px;
+}
+
+/*FOOTER*/
