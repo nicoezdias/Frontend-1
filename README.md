@@ -21,3 +21,6 @@ Link: https://nicoezdias.github.io/Frontend-1/CvDiasNicolas/
 
 Link: https://nicoezdias.github.io/Frontend-1/CardsSupers/
  
+## 6. Pizeria
+
+Link: https://nicoezdias.github.io/Frontend-1/Pizzeria/
