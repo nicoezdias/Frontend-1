@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+* {
+	margin: 0px;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: #f3f3f3;
+}
+/* HEADER */
+header {
+	display: flex;
+	justify-content: space-between;
+	background-color: #222222;
+	padding: 10px 20px;
+	box-shadow: 0 10px 10px 1px grey;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+ul {
+	padding: 0px;
+	list-style-type: none;
+}
+li {
+	margin: 10px;
+}
+.cont {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.pizza {
+	color: green;
+}
+.front {
+	color: red;
+}
+h1,
+h2 {
+	color: white;
+}
+/* HEADER */
+/* MAIN */
+main {
+	background-color: #f3f3f3;
+}
+section {
+	display: flex;
+	justify-content: center;
+	margin: 35px 0px;
+	padding: 0px 19px;
+}
+.baner {
+	background: burlywood url(../img/delivery.svg) no-repeat center;
+	background-size: cover;
+	height: 350px;
+	width: 490px;
+	border-radius: 10px;
+	padding: 20px;
+	font-size: 18px;
+	margin-right: 5px;
+}
+.podio {
+	padding: 26px 55px 16px 51px;
+	background-color: #ffffffff;
+	border-radius: 10px;
+	height: 350px;
+	width: 490px;
+}
+.podio div h2 {
+	text-align: center;
+	font-size: 27px;
+}
+.podioList {
+	margin-top: 58px;
+	justify-content: space-between;
+	font-weight: 700;
+}
+.podioList h2 {
+	color: black;
+}
+/* MAIN */
+/* FOOTER */
+footer {
+	padding: 19px 42px 19px 20px;
+	display: flex;
+	justify-content: space-between;
+	background-color: #222222;
+	box-shadow: 0 10px 10px 1px grey;
+}
+/* FOOTER */
