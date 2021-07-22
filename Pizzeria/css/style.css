@@ -67,15 +67,17 @@ section {
 	border-radius: 10px;
 	height: 350px;
 	width: 490px;
+	text-align: center;
 }
 .podio div h2 {
-	text-align: center;
 	font-size: 27px;
+	width: 100%;
 }
 .podioList {
 	margin-top: 58px;
 	justify-content: space-between;
 	font-weight: 700;
+	text-align: start;
 }
 .podioList h2 {
 	color: black;
