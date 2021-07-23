@@ -101,8 +101,8 @@ ul {
 .estante {
 	display: flex;
 	justify-content: space-between;
-	max-width: 70%;
-	margin: 20px auto;
+	max-width: 80%;
+	margin: 0px auto;
 }
 .product {
 	background-color: #fbfaf6;
@@ -113,16 +113,25 @@ ul {
 }
 /*MAIN */
 /*FOOTER */
-
+.footerSup {
+	display: flex;
+	align-items: center;
+	background-color: #f0a83e;
+	margin-top: 20px;
+	padding: 10px 23px;
+}
+.footerSup p {
+	margin-left: 10px;
+	color: #ffffff;
+}
 .footerMiddle {
 	background-color: #3c2313;
 	color: #ffffff;
 	padding: 23px 70px;
-	margin-top: 20px;
 }
 .footerMiddle i {
-	font-size: 40px;
-	margin: 10px 15px;
+	font-size: 55px;
+	margin: 10px 25px 10px 0px;
 }
 .footerMiddle p {
 	font-size: 13px;
@@ -133,7 +142,6 @@ ul {
 }
 .contFoot {
 	display: flex;
-	align-items: center;
 	justify-content: right;
 }
 .contFoot i {
