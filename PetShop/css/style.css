@@ -58,21 +58,26 @@ section {
 	margin-bottom: 20px;
 }
 .baner {
+	position: relative;
 	background-image: url(../img/foto.svg);
 	background-size: cover;
-	height: 150px;
+	height: 409px;
 	margin: 0px 0px 20px;
-	padding: 250px 10px 100px 900px;
 }
-.espacio {
+.baner div {
+	position: absolute;
+	bottom: 100px;
+	right: 10px;
+}
+.baner p,
+a {
 	margin: 30px 0px;
-	padding: 15px;
-	border-radius: 15px;
 }
 .import {
 	display: inline;
 	background-color: #ffffff;
 	font-size: 30px;
+	padding: 15px;
 	border-radius: 15px;
 }
 .baner a {
@@ -109,22 +114,38 @@ ul {
 /*MAIN */
 /*FOOTER */
 
-.footerSup {
+.footerMiddle {
 	background-color: #3c2313;
 	color: #ffffff;
-	padding: 12px;
+	padding: 23px 70px;
 	margin-top: 20px;
 }
-.footerSup i {
+.footerMiddle i {
 	font-size: 40px;
 	margin: 10px 15px;
 }
-.footerSup p {
+.footerMiddle p {
 	font-size: 13px;
 	color: #8a8787;
 }
-.footerSup h4 {
+.footerMiddle h4 {
 	font-size: 25px;
+}
+.contFoot {
+	display: flex;
+	align-items: center;
+	justify-content: right;
+}
+.contFoot i {
+	width: 45px;
+	height: 45px;
+}
+.h2foot {
+	color: #ffffff;
+	font-size: 23px;
+}
+.h2foot span {
+	color: #f0a83e;
 }
 .footerInf {
 	background-color: black;
