@@ -1,21 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 * {
+	padding: 0px;
 	margin: 0px;
 	font-family: 'Roboto', sans-serif;
 }
+body,
+main,
+header,
+footer {
+	width: 100%;
+}
+
 /* HEADER */
 .primerEncabezado {
-	background-color: #1cd1b0;
+	position: sticky;
+	background-color: #d1891c;
 	padding: 10px;
 	width: 400;
 }
+/* HEADER */
+/* MAIN */
 .segundoEncabezado {
-	position: fixed;
+	position: sticky;
+	top: 0px;
 	z-index: 1;
-	width: 100%;
 	background-color: #00669f;
 	padding: 28px;
-	box-shadow: 0 10px 10px 1px grey;
 }
 .shadow {
 	box-shadow: 0 10px 10px -3px grey;
@@ -23,21 +33,31 @@
 	box-shadow: 0 10px 10px -3px grey;
 }
 h1 {
+	color: #ffffff;
 	width: 400;
 	font-size: 40px;
 	font-style: normal;
 	font-weight: normal;
 }
-/* HEADER */
-/* MAIN */
-main {
+section {
 	display: flex;
-	justify-content: space-between;
-	margin: 150px 50px 32px;
+	margin: 10px;
+}
+section > div {
+	display: flex;
+	justify-content: space-around;
+	width: 50%;
+	margin: 20px 0px;
 }
 .cards {
-	display: inline-block;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-color: #f3f3f3;
 	width: 300px;
+	height: 650px;
+	border-start-end-radius: 20px;
+	border-start-start-radius: 20px;
 }
 .fotoQ {
 	background-image: url(../img/849bfede3a5193c34ab8a00379e64fa2\ 1-2.svg);
@@ -45,14 +65,22 @@ main {
 .fotoB {
 	background-image: url(../img/849bfede3a5193c34ab8a00379e64fa2\ 1.svg);
 }
+.fotoM {
+	background-image: url(../img/fotoM.svg);
+}
+.fotoS {
+	background-image: url(../img/fotoS.svg);
+}
 .baners {
+	position: relative;
 	color: red;
 	background-size: cover;
-	height: 150px;
+	height: 200px;
 	padding: 10px;
+	border-start-end-radius: 20px;
+	border-start-start-radius: 20px;
 }
 .contInfo {
-	position: relative;
 	text-align: center;
 	background-color: #f3f3f3;
 	padding: 15px;
@@ -60,8 +88,9 @@ main {
 .avatar {
 	border-radius: 50%;
 	position: absolute;
-	right: 90px;
-	top: -70px;
+	left: 70px;
+	bottom: -60px;
+	height: 150px;
 }
 .contInfo h2 {
 	margin-top: 50px;
@@ -89,9 +118,26 @@ main {
 footer {
 	background-color: #00669f;
 	color: #fff9f9;
-	width: 100%;
 	position: relative;
 	bottom: 0px;
 	padding: 16px;
 }
 /* FOOTER */
+@media screen and (max-width: 1300px) {
+	section {
+		flex-direction: column;
+	}
+	section > div {
+		width: unset;
+	}
+}
+@media screen and (max-width: 645px) {
+	section > div {
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.cards {
+		margin-top: 40px;
+	}
+}
