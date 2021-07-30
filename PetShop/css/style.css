@@ -21,8 +21,16 @@ p {
 	padding: 0px 20px;
 }
 .middle i {
-	margin-right: 10px;
+	display: none;
+	color: #ffffff;
+	font-size: 20px;
 }
+.middle a > i {
+	display: inline;
+	margin-right: 10px;
+	font-size: 15px;
+}
+
 div.cont {
 	display: flex;
 	justify-content: space-between;
@@ -164,3 +172,24 @@ ul {
 }
 
 /*FOOTER*/
+
+@media screen and (max-width: 480px) {
+	nav {
+		display: none;
+	}
+	.middle i {
+		display: inline;
+	}
+	section.estante {
+		flex-direction: column;
+	}
+	.product {
+		margin-top: 20px;
+	}
+	.footerMiddle {
+		flex-direction: column-reverse;
+	}
+	.footerMiddle a.logo {
+		margin: 5px;
+	}
+}
