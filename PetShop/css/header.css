@@ -1,0 +1,50 @@
+.superior {
+	background-color: #222222;
+	color: #f3f3f3;
+	padding: 0px 20px;
+}
+p {
+	margin-right: 10px;
+}
+.middle {
+	background-color: #f0a83e;
+	padding: 0px 20px;
+}
+.middle i {
+	display: none;
+	color: #ffffff;
+	font-size: 20px;
+}
+.middle a > i {
+	display: inline;
+	margin-right: 10px;
+	font-size: 15px;
+}
+
+div.cont {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo {
+	display: flex;
+}
+.mascota {
+	width: 20px;
+	display: inline;
+}
+a {
+	text-decoration: none;
+	color: #ffffff;
+}
+h1 {
+	color: #3c2313;
+}
+span {
+	color: #ffffff;
+}
+li {
+	display: inline;
+	list-style-type: none;
+	margin-right: 10px;
+}
