@@ -1,0 +1,21 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+.primerEncabezado {
+	position: sticky;
+	background-color: #1cd1b0;
+	padding: 10px 20px;
+	width: 400;
+}
+a {
+	text-decoration: none;
+	color: #ffffff;
+	padding: 10px;
+}
+.butom:hover {
+	background-color: black;
+	color: #ffffff;
+}

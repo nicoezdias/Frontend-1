@@ -10,10 +10,13 @@ header > div {
 	padding: 28px;
 	align-items: center;
 }
+img {
+	height: 4rem;
+}
 h1 {
 	color: #ffffff;
 	width: 400;
-	font-size: 40px;
+	font-size: 2rem;
 	font-style: normal;
 	font-weight: normal;
 }
