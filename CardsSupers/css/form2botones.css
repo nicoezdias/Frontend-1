@@ -1,0 +1,22 @@
+@import url(./form1boton.css);
+#formulario div {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+input[type='reset'] {
+	border-radius: 20px;
+	background-color: #888888;
+	border: none;
+	outline: none;
+	color: #ffffff;
+	font-size: 1.2rem;
+	font-weight: bold;
+	width: 48%;
+	padding: 8px;
+	margin-top: 50px;
+}
+
+input[type='submit'] {
+	width: 48%;
+}

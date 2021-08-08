@@ -5,7 +5,7 @@ header {
 	background-color: #00669f;
 	box-shadow: 0 10px 10px -3px grey;
 }
-header > div {
+header > div a {
 	display: flex;
 	padding: 28px;
 	align-items: center;
