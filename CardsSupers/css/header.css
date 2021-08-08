@@ -1,0 +1,31 @@
+header {
+	position: sticky;
+	top: 0px;
+	z-index: 1;
+	background-color: #00669f;
+	box-shadow: 0 10px 10px -3px grey;
+}
+header > div {
+	display: flex;
+	padding: 28px;
+	align-items: center;
+}
+h1 {
+	color: #ffffff;
+	width: 400;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: normal;
+}
+ul {
+	list-style-type: none;
+	display: flex;
+	justify-content: flex-end;
+	background-color: black;
+
+	padding: 15px;
+}
+ul a {
+	padding: 10px;
+	margin-left: 10px;
+}

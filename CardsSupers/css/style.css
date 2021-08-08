@@ -1,143 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url(./header.css);
+@import url(./main.css);
+@import url(./footer.css);
 * {
 	padding: 0px;
 	margin: 0px;
 	font-family: 'Roboto', sans-serif;
 }
-body,
-main,
-header,
-footer {
-	width: 100%;
-}
-
 .primerEncabezado {
 	position: sticky;
 	background-color: #d1891c;
 	padding: 10px;
 	width: 400;
 }
-/* HEADER */
-header {
-	position: sticky;
-	top: 0px;
-	z-index: 1;
-	background-color: #00669f;
-	padding: 28px;
-	box-shadow: 0 10px 10px -3px grey;
-}
-h1 {
-	color: #ffffff;
-	width: 400;
-	font-size: 40px;
-	font-style: normal;
-	font-weight: normal;
-}
-/* HEADER */
-/* MAIN */
-.shadow {
-	box-shadow: 0 10px 10px -3px grey;
-	box-shadow: 0 10px 10px -3px grey;
-	box-shadow: 0 10px 10px -3px grey;
-}
-section {
-	display: flex;
-	margin: 10px;
-}
-section > div {
-	display: flex;
-	justify-content: space-around;
-	width: 50%;
-	margin: 20px 0px;
-}
-.cards {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	background-color: #f3f3f3;
-	width: 300px;
-	height: 650px;
-	border-start-end-radius: 20px;
-	border-start-start-radius: 20px;
-}
-.fotoQ {
-	background-image: url(../img/849bfede3a5193c34ab8a00379e64fa2\ 1-2.svg);
-}
-.fotoB {
-	background-image: url(../img/849bfede3a5193c34ab8a00379e64fa2\ 1.svg);
-}
-.fotoM {
-	background-image: url(../img/fotoM.svg);
-}
-.fotoS {
-	background-image: url(../img/fotoS.svg);
-}
-.baners {
-	position: relative;
-	color: red;
-	background-size: cover;
-	height: 200px;
-	padding: 10px;
-	border-start-end-radius: 20px;
-	border-start-start-radius: 20px;
-}
-.contInfo {
-	text-align: center;
-	background-color: #f3f3f3;
-	padding: 15px;
-}
-.avatar {
-	border-radius: 50%;
-	position: absolute;
-	left: 70px;
-	bottom: -60px;
-	height: 150px;
-}
-.contInfo h2 {
-	margin-top: 50px;
-	font-style: normal;
-	font-weight: normal;
-}
-.contInfo p {
-	text-align: start;
-	margin: 20px 0px;
-}
-.botom {
-	background-color: #f3f3f3;
-	text-align: center;
-	height: 50px;
-	padding-top: 10px;
-}
-.botom a {
+a {
 	text-decoration: none;
 	color: #ffffff;
-	background-color: #00669f;
-	padding: 15px 37px;
-}
-/* MAIN */
-/* FOOTER */
-footer {
-	background-color: #00669f;
-	color: #fff9f9;
-	position: relative;
-	bottom: 0px;
-	padding: 16px;
-}
-/* FOOTER */
-@media screen and (max-width: 1300px) {
-	section {
-		flex-direction: column;
-	}
-	section > div {
-		width: unset;
-	}
+	padding: 10px;
 }
 @media screen and (max-width: 645px) {
-	section > div {
-		flex-direction: column;
-		align-items: center;
-		justify-content: space-between;
-	}
 	.cards {
 		margin-top: 40px;
 	}
