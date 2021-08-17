@@ -1,0 +1,77 @@
+/* Estilos Generales */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+}
+ul {
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+	display: inline-block;
+	color: #f3f3f3;
+}
+h2 {
+	text-align: center;
+}
+section {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #222222;
+	color: #f3f3f3;
+	padding: 30px 35px;
+}
+.logo {
+	display: flex;
+	align-items: center;
+}
+.logo img {
+	margin-right: 10px;
+}
+.logo span {
+	color: #d01418;
+}
+nav ul {
+	display: flex;
+	align-items: center;
+}
+nav ul a {
+	padding: 10px;
+}
+.cart {
+	color: red;
+	font-size: 20px;
+	margin-left: 15px;
+}
+
+.banner {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: violet url(../img/background.png) no-repeat;
+	background-size: cover;
+	height: 500px;
+	color: #f3f3f3;
+}
+.banner__btn {
+	background-color: #d01418;
+	padding: 10px;
+	margin-top: 20px;
+}
+.product__container {
+	display: flex;
+	justify-content: center;
+	gap: 40px;
+	padding: 40px;
+}
