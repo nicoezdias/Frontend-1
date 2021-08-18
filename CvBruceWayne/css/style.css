@@ -1,73 +1,73 @@
 * {
-	padding: 0%;
-	margin: 0%;
+  padding: 0%;
+  margin: 0%;
 }
 
 body {
-	font-family: 'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 a {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 header {
-	background-color: #e5e5e5;
-	text-align: center;
+  background-color: #e5e5e5;
+  text-align: center;
 }
 
 h1 {
-	background-color: #c4c4c4;
-	color: #005677;
-	font-style: normal;
-	letter-spacing: 3px;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 35px;
+  background-color: #c4c4c4;
+  color: #005677;
+  font-style: normal;
+  letter-spacing: 3px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
 }
 
 div {
-	max-width: 80%;
-	margin: 0 auto;
+  max-width: 80%;
+  margin: 0 auto;
 }
 
 section {
-	margin-top: 30px;
+  margin-top: 30px;
 }
 
 h2 {
-	background-color: #c4c4c4;
-	color: #005677;
-	font-style: normal;
-	letter-spacing: 3px;
-	padding: 6px 9px 7px;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 20px;
+  background-color: #c4c4c4;
+  color: #005677;
+  font-style: normal;
+  letter-spacing: 3px;
+  padding: 6px 9px 7px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 span {
-	font-weight: bold;
+  font-weight: bold;
 }
 
 .datos_personales {
-	font-style: italic;
+  font-style: italic;
 }
 
 dl {
-	margin-left: 50px;
+  margin-left: 50px;
 }
 
 dd {
-	margin-left: 80px;
+  margin-left: 80px;
 }
 
 footer {
-	text-align: center;
-	margin-top: 30px;
-	font-size: 24px;
-	color: white;
-	background-color: #005677;
-	height: 37px;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 24px;
+  color: white;
+  background-color: #005677;
+  height: 37px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.primerEncabezado {
+  position: -webkit-sticky;
+  position: sticky;
+  background-color: #1cd1b0;
+  padding: 10px 20px;
+  width: 400;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.butom:hover {
+  background-color: black;
+  color: #ffffff;
+}
+
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+  background-color: #00669f;
+  -webkit-box-shadow: 0 10px 10px -3px grey;
+          box-shadow: 0 10px 10px -3px grey;
+}
+
+header > div a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 28px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+img {
+  height: 4rem;
+}
+
+h1 {
+  color: #ffffff;
+  width: 400;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: normal;
+}
+
+ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background-color: black;
+  padding: 15px;
+}
+
+ul a {
+  padding: 10px;
+  margin-left: 10px;
+}
+
+footer {
+  background-color: #00669f;
+  color: #fff9f9;
+  text-align: center;
+  bottom: 0px;
+  padding: 16px;
+}
+
+section {
+  max-width: 45%;
+  margin: 110px auto;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+#formulario {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+input {
+  border: 2px solid #797979;
+  outline: none;
+  color: #797979;
+  font-weight: bold;
+  margin-top: 25px;
+  width: 100%;
+  height: 40px;
+  padding: 8px 20px;
+}
+
+input[type='submit'] {
+  border-radius: 20px;
+  background-color: #1cd1b0;
+  border: none;
+  outline: none;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+input::-webkit-input-placeholder {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+input:-ms-input-placeholder {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+input::-ms-input-placeholder {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+input::placeholder {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+select {
+  border: 2px solid #797979;
+  outline: none;
+  color: #797979;
+  font-weight: bold;
+  margin-top: 25px;
+  width: 100%;
+  height: 40px;
+  padding: 8px 20px;
+}
+
+textarea {
+  border: 2px solid #797979;
+  outline: none;
+  color: #797979;
+  font-weight: bold;
+  margin-top: 25px;
+  width: 100%;
+  height: 150px;
+  padding: 8px 20px;
+}
+
+.tenesCuenta {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.tenesCuenta a {
+  color: #00669f;
+  padding: 10px 3px;
+}
+/*# sourceMappingURL=ingresar.css.map */
