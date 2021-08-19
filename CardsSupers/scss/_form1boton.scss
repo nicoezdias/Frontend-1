@@ -23,7 +23,7 @@ input {
 }
 input[type='submit'] {
 	border-radius: 20px;
-	background-color: #1cd1b0;
+	background-color: $color-secundario;
 	border: none;
 	outline: none;
 	color: black;
@@ -60,6 +60,6 @@ textarea {
 	margin-top: 25px;
 }
 .tenesCuenta a {
-	color: #00669f;
+	color: $principal-color;
 	padding: 10px 3px;
 }

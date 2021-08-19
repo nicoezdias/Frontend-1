@@ -4,17 +4,20 @@
 	box-sizing: border-box;
 	font-family: 'Roboto', sans-serif;
 }
-.primerEncabezado {
-	position: sticky;
-	background-color: #1cd1b0;
-	padding: 10px 20px;
-	width: 400;
+body {
+	& > div {
+		position: sticky;
+		background-color: $color-secundario;
+		padding: 10px 20px;
+		width: 400;
+	}
+	a {
+		text-decoration: none;
+		color: #ffffff;
+		padding: 10px;
+	}
 }
-a {
-	text-decoration: none;
-	color: #ffffff;
-	padding: 10px;
-}
+
 .butom:hover {
 	background-color: black;
 	color: #ffffff;

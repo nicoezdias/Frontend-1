@@ -46,11 +46,11 @@ header > div a {
           align-items: center;
 }
 
-header > div a img {
+img {
   height: 4rem;
 }
 
-header > div a h1 {
+h1 {
   color: #ffffff;
   width: 400;
   font-size: 2rem;
@@ -58,7 +58,7 @@ header > div a h1 {
   font-weight: normal;
 }
 
-header nav ul {
+ul {
   list-style-type: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -70,12 +70,19 @@ header nav ul {
   padding: 15px;
 }
 
-header nav ul a {
+ul a {
   padding: 10px;
   margin-left: 10px;
 }
 
-main section.estante {
+.shadow {
+  -webkit-box-shadow: 0 10px 10px -3px grey;
+          box-shadow: 0 10px 10px -3px grey;
+  box-shadow: 0 10px 10px -3px grey;
+  box-shadow: 0 10px 10px -3px grey;
+}
+
+.estante {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -87,7 +94,7 @@ main section.estante {
   padding: 5px 10px;
 }
 
-main section.estante div.cards {
+.cards {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -106,30 +113,23 @@ main section.estante div.cards {
   margin: 10px 5px;
 }
 
-main section.estante div.shadow {
-  -webkit-box-shadow: 0 10px 10px -3px grey;
-          box-shadow: 0 10px 10px -3px grey;
-  box-shadow: 0 10px 10px -3px grey;
-  box-shadow: 0 10px 10px -3px grey;
-}
-
-main section.estante div.fotoQ {
+.fotoQ {
   background-image: url(../img/fotoQ.svg);
 }
 
-main section.estante div.fotoB {
+.fotoB {
   background-image: url(../img/fotoB.svg);
 }
 
-main section.estante div.fotoM {
+.fotoM {
   background-image: url(../img/fotoM.svg);
 }
 
-main section.estante div.fotoS {
+.fotoS {
   background-image: url(../img/fotoS.svg);
 }
 
-main section.estante div.baners {
+.baners {
   position: relative;
   color: red;
   background-size: cover;
@@ -139,7 +139,13 @@ main section.estante div.baners {
   border-start-start-radius: 20px;
 }
 
-main section.estante div.baners .avatar {
+.contInfo {
+  text-align: center;
+  background-color: #f3f3f3;
+  padding: 15px;
+}
+
+.avatar {
   border-radius: 50%;
   position: absolute;
   left: 70px;
@@ -147,41 +153,35 @@ main section.estante div.baners .avatar {
   height: 150px;
 }
 
-main section.estante div.contInfo {
-  text-align: center;
-  background-color: #f3f3f3;
-  padding: 15px;
-}
-
-main section.estante div.contInfo h2 {
+.contInfo h2 {
   margin-top: 50px;
   font-style: normal;
   font-weight: normal;
 }
 
-main section.estante div.contInfo p {
+.contInfo p {
   text-align: start;
   margin: 20px 0px;
 }
 
-main section.estante div .contBot {
+.contBot {
   background-color: #f3f3f3;
   text-align: center;
   height: 50px;
   padding-top: 10px;
 }
 
-main section.estante div .contBot a {
+.contBot a {
   background-color: #00669f;
   padding: 15px 37px;
 }
 
-main section.agregar {
+.agregar {
   width: 100px;
   text-align: center;
 }
 
-main section.agregar a {
+.agregar a {
   position: fixed;
   top: 60%;
   right: 10px;

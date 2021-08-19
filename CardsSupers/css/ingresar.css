@@ -7,7 +7,7 @@
   font-family: 'Roboto', sans-serif;
 }
 
-.primerEncabezado {
+body > div {
   position: -webkit-sticky;
   position: sticky;
   background-color: #1cd1b0;
@@ -15,7 +15,7 @@
   width: 400;
 }
 
-a {
+body a {
   text-decoration: none;
   color: #ffffff;
   padding: 10px;
@@ -46,11 +46,11 @@ header > div a {
           align-items: center;
 }
 
-img {
+header > div a img {
   height: 4rem;
 }
 
-h1 {
+header > div a h1 {
   color: #ffffff;
   width: 400;
   font-size: 2rem;
@@ -58,7 +58,7 @@ h1 {
   font-weight: normal;
 }
 
-ul {
+header nav ul {
   list-style-type: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -70,17 +70,9 @@ ul {
   padding: 15px;
 }
 
-ul a {
+header nav ul a {
   padding: 10px;
   margin-left: 10px;
-}
-
-footer {
-  background-color: #00669f;
-  color: #fff9f9;
-  text-align: center;
-  bottom: 0px;
-  padding: 16px;
 }
 
 section {
@@ -180,5 +172,13 @@ textarea {
 .tenesCuenta a {
   color: #00669f;
   padding: 10px 3px;
+}
+
+footer {
+  background-color: #00669f;
+  color: #fff9f9;
+  text-align: center;
+  bottom: 0px;
+  padding: 16px;
 }
 /*# sourceMappingURL=ingresar.css.map */
